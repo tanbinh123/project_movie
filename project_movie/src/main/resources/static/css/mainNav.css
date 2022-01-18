@@ -1,0 +1,87 @@
+header {
+  background-color: black;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.imdb_header {
+  margin: 0px 410px;
+  display: flex;
+}
+
+.img_imdb {
+  width: 32px;
+  width: 64px;
+  border-radius: 5px;
+}
+.page-content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px auto;
+}
+.imdb_menu {
+  margin: 0 30px;
+  color: white;
+}
+.search-container {
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  margin: 0px 20px;
+  padding: 0px;
+
+  position: relative;
+}
+
+.nav-search-form {
+  background: white;
+  height: 2rem;
+  border-radius: 0.25rem;
+  width: 650px;
+  -webkit-box-align: center;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.search-category-selector {
+  width: 60px;
+  margin-left: 10px;
+  background-color: aqua;
+}
+
+.search-input {
+  display: flex;
+  width: 500px;
+}
+
+.navbar_user {
+  display: flex;
+}
+.navbar_user .IMDbPro {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+.navbar_user .navbar_bar {
+  border: 1px solid gray;
+  background-color: gray;
+  width: 1px;
+  height: 2rem;
+  margin: 0px 0.5rem;
+}
+.navbar_user .watchlist {
+  color: white;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+}
+.navbar_user .signin-text {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.categories {
+  display: flex;
+}

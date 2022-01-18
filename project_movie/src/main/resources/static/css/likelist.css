@@ -1,0 +1,286 @@
+
+#wraper_content{
+    width: 1008px;
+    background-color: #fff;
+}
+
+#wraper_top{
+    display: flex;
+    background: #eee;
+}
+#watch_list_main{
+    box-sizing: border-box;
+}
+
+.nav{
+    width: 660px;
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    background-color: #eee;
+}
+
+.nav_left{
+    width: 506px;
+    float: left;
+}
+.nav_left h1{
+    font-size: 28px;
+    font-weight: 500;
+}
+#private{
+    margin-top: 4px;
+    font-size: 12px;
+    font-weight: 800;
+    color: #aaaaaa;
+}
+
+
+.btns{
+    display: flex;
+}
+
+.btns a{
+    color: #5a5a5a;
+    width: 48px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.btns a:first-child{
+    margin-right: 18px;  
+}
+.btns a:last-child{
+    cursor: text;
+}
+
+.btns i{
+    margin: 0 14px;
+}
+
+.btns span{
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.nav_mid{
+    font-size: 13px;
+    margin: 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+    width: 660px;
+    height: 46px;
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
+}
+
+#title_count{
+    width: 200px;
+    margin-top: 14px;
+    display:inline-block;
+}
+#Sort{
+    display: inline-block;
+    padding: 11px 0;
+    margin-left: 20px;
+}
+#Sort select{
+    width: 166px;
+    padding: 0 2px;
+    border: 1px solid #ccc;
+    height: 24px;
+    border-radius: 3px;
+    background: #f8f8f8;
+}
+
+.nav_mid button{
+    margin-left: 5px;
+    color: #5a5a5a;
+    font-size: 24px;
+}
+.nav_mid button i{
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+/* .btn_div{
+    
+    display: block;
+}
+.btn_div button{
+    margin-left: 11px;
+} */
+
+.btn:last-child{
+    font-size: 13px;
+    padding: 1px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+.item_list{
+    width: 660px;
+    height: 150px;
+    box-sizing: border-box;
+    margin: 0 0 20px;
+    padding: 10px 21px 0 20px;
+    display: flex;
+    
+}
+
+#movie_poster{
+    
+    width: 96px;
+    height: 142px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.item_list_content{
+    margin: 0;
+    padding-left: 20px;
+}
+
+
+.item_list_content h3 a{
+    color: #136cb2;
+    font-size: 17px;
+    font-weight: 500;
+    
+}
+.item_list_content h3 a:hover{
+    border-bottom: 1px solid #136cb2;
+}
+#movie_detail{
+    font-size: 11px;
+}
+
+#movie_detail span{
+    padding:0 6px;
+    box-sizing: border-box;
+    color: #666666;
+    border-right: 1px solid #ccc;
+}
+#movie_detail span:first-child{
+    padding: 0 6px 0 0;
+}
+#rating_bar{
+    display: inline-block;
+}
+
+.rating_star{
+    display: inline-block;
+    font-size: 13px;
+}
+
+
+#credits a{
+    font-size: 11px;
+    color: #136cb2;
+}
+#credits a:hover{
+    border-bottom: 1px solid #136cb2;
+}
+
+#plot{
+    display: inline-block;
+    margin: 6.5px 0 9.7px;
+    padding-right: 15.6px;
+    font-size: 13px;
+}
+
+
+
+#export_list{
+    margin: 0;
+    width: 660px;
+    box-sizing: border-box;
+    padding: 12px 20px 24px 20px;
+    border-top: 1px dotted #ccc;
+    text-align: right;
+    font-size: 13px;
+    
+}
+#export_list a{
+    color: #136cb2;
+}
+#export_list a:hover{
+    border-bottom: 1px solid #136cb2;
+}
+
+
+
+#watch_list_main2{
+    border-left: 4px solid #ccc;
+    background: #eee;
+}
+#watch_list_main2 a{
+    color: #136cb2;
+}
+#watch_list_main2 a:hover{
+    border-bottom: 1px solid #136cb2;
+}
+#slide_bar{
+    padding: 0 19px;
+}
+
+#ab_ninja{
+    padding: 16px 0 20px;
+    border-bottom: 1px solid #ccc;
+}
+#ab_ninja span h3{
+    display: inline-block;
+    margin: 0 0 14px;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+#ab_ninja span h3:hover{
+    color: #136cb2;
+    border-bottom: #136cb2;
+}
+#ab_ninja p{
+    margin: 6.5px 0 9.75px;
+    font-size: 13px;
+}
+#ab_ninja a{
+    font-size: 13px;
+}
+
+#aux{
+    padding: 16px 0 20px;
+    font-size: 13px;
+}
+
+
+
+
+
+.recently_view{
+    position: relative;
+    box-sizing: border-box;
+    background-color: #ededec;
+    width: 1008px;
+    border-top: 1px solid #ccc;
+    min-height: 200px;
+    padding:16px 20px;
+}
+.recently_view h3{
+    color: #666666;
+}
+.recently_view .rhs{
+    font-size: 11px;
+    position: absolute;
+    right: 20px;
+}
+#clear_rvi{
+    color: #136cb2;
+}
+#clear_rvi:hover{
+    border-bottom:1px solid#136cb2;
+}

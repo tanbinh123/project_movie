@@ -1,0 +1,249 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    border: 0;
+    margin:  0 auto;
+}
+
+body{
+    background-color: rgb(187, 187, 187);
+}
+
+/* header */
+#header{
+    background-color: black;
+}
+
+#header a{
+    color: #fff;
+}
+
+.JMKYheader{
+    width: 1280px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.JMKYheader h1{
+    width: 59.67px;
+    font-size: 25px;
+}
+
+.JMKYheader ul li{
+    color: #fff;
+    float: left;
+    font-size:14px;
+    font-weight: 700;
+}
+
+#menu{
+    min-width: 90px;
+    margin: 0;
+    padding: 0;
+}
+#serach_container{
+    display: flex;
+    width: 650px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #fff;
+    
+}
+#serach_container select{
+    min-width: 30px;
+    text-align: center;
+    border-radius: 5px;
+    outline: none;
+}
+
+#serach_container input{
+    width: 100%;
+    height: 31.25px;
+    padding: 5.25px 0 6px 8px;
+    font-size: 0.875rem;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+}
+#serach_container input:focus{
+    outline: none;
+}
+#serach_container button{
+    margin-right: 10px;
+    cursor: pointer;
+    background: #fff;
+}
+
+.top_nav{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 31.25px;
+    line-height: 31.25px;
+}
+
+
+.top_nav li{
+    font-size: 14px;
+    padding: 0 16px;
+    
+}
+.top_nav li:hover{
+    
+    background: rgb(53, 51, 51);
+}
+
+.top_nav #JMKYPro{
+    border-right:2px solid gray;
+}
+
+
+
+
+/*main*/
+
+.content1{
+    background-color: #fff;
+    width: 1008px;
+    display: flex;
+    align-items: center;
+}
+
+#sign_in_option{
+    margin: 35px 0 20px 100px;
+    width: 50%;
+}
+#sign_in_box{
+    width: 240px;
+    align-items: center;
+    text-align: center;
+}
+#sign_in_box h1{
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+#sign_in_box input{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 5px;
+    height: 34px;
+    background-color: rgb(223, 222, 222);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+.item_msg {
+	font-size: 12px;
+	color: red;
+	font-weight: 600;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.item_msg .emailErrorMsg {
+	display: none;
+}
+
+.item_msg .passwordErrorMsg {
+	display: none;
+}
+
+#sign_in_box button{
+    width: 100%;
+    height: 34px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid rgb(223, 222, 222);
+}
+#sign_in_box #sign_up_btn{
+    background: #e4b721;
+}
+
+#login_btns div{
+    margin-bottom: 5px;
+}
+#login_btns a{
+    color: black;
+}
+
+
+.hr-sect {
+    padding: 15px 0px;
+    height: 18px;
+	display: flex;
+	flex-basis: 100%;
+	align-items: center;
+	color: black;
+	font-size: 12px;
+}
+.hr-sect::before,
+.hr-sect::after {
+	content: "";
+	flex-grow: 1;
+	background: black;
+	height: 1px;
+	font-size: 0px;
+	line-height: 0px;
+}
+.text-center{
+    margin: 6.500px 0 9.750px 0;
+    font-size: 10.4px;
+    
+}
+.text-center a{
+    color:#136cb2;
+}
+.text-center a:hover{
+    border-bottom: 1px solid #136cb2;
+}
+
+
+#sign_in_perks{
+    width: 50%;
+    margin: 0 100px 20px 0;
+    padding-left: 25px;
+    border-left: 1px solid #ededec;
+}
+#sign_in_perks h1{
+    font-size: 21px;
+    margin: 14px 0;
+}
+#sign_in_perks p{
+    font-size: 13px;
+    margin: 6.500px 0 9.750px 0;
+}
+
+.recently_view{
+    position: relative;
+    box-sizing: border-box;
+    background-color: #ededec;
+    width: 1008px;
+    border-top: 1px solid #ccc;
+    min-height: 200px;
+    padding:16px 20px;
+}
+.recently_view h3{
+    color: #666666;
+}
+.recently_view .rhs{
+    font-size: 11px;
+    position: absolute;
+    right: 20px;
+}
+#clear_rvi{
+    color: #136cb2;
+}
+#clear_rvi:hover{
+    border-bottom:1px solid#136cb2;
+}
+
+
+
+
+

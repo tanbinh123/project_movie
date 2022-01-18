@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/*리스트 공통*/
+.wrapper {
+  display: flex;
+  /* justify-content: space-between; */
+  margin: 0 auto;
+  width: 1008px;
+}
+
+.pagecontent {
+  background-color: #cacac6;
+  height: 1200px;
+  width: 1000px;
+
+  margin: 0 auto;
+}
+.content_2_wide {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main {
+  width: 613px;
+  height: 1160px;
+  padding: 20px 20px;
+  background-color: #f8f8f8;
+}
+.title_Box {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+/*=리스트 공통-sidebar==================*/
+.sidebar {
+  width: 300px;
+  height: 1200px;
+  background-color: #f8f8f8;
+  padding: 0 20px;
+}
+
+.sidebar_top {
+  margin-top: 20px;
+}
+
+.sidebar_widget {
+  padding: 20px 0;
+  border-bottom: 0.5px solid gray;
+}
+.sidebar_title {
+  padding: 10px;
+  font-size: 20px;
+}
+.sidebar_title .title_yhs {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.sidebar_seen {
+  display: flex;
+}
+
+/*==============================*/
+hr {
+  margin: 12px 0;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #e8e8e8;
+  overflow: visible;
+}
+.sortby{
+	display: block;
+	float: right;
+	font-size: 14px;
+}
+.submit_sortby{
+	cursor: pointer;
+	font-size: 8px;
+	
+	background-color: #cfcfcf;
+	border-radius: 2px;
+	padding: 0 6px;
+	height: 16px;
+}
+.ascending{
+	
+	float: right;
+	margin-top: 4px;
+	background-image: url(https://m.media-amazon.com/images/S/sash/Lghmahow7r9CQqO.png);
+	background-position: 0 -22px;
+	background-repeat: no-repeat;
+	
+	display: none;
+	cursor: pointer;
+	height: 20px;
+	width: 22px;
+}
+.descending{
+	float: right;
+	margin-top: 4px;
+	background-image: url(https://m.media-amazon.com/images/S/sash/Lghmahow7r9CQqO.png);
+	background-position: 0 -46px;
+	background-repeat: no-repeat;
+	
+	display: inline-block;
+	cursor: pointer;
+	height: 20px;
+	width: 22px;
+}
+.desc{
+	font-size: 14px;
+}
+

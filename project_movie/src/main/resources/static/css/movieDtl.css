@@ -1,0 +1,154 @@
+.promptable_base {
+    bottom: 0;
+    display: none;
+    
+    left: 0;
+    
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    margin: auto 0;
+    background-color: #fff;
+    opacity: 90%;
+}
+
+.promptable_base_panel {
+    transform: scale(1);
+    opacity: 100;
+    max-width: calc(600px - 2rem);
+    height: 200px;
+    margin: 250px auto;
+    padding: 1.5rem;
+    background: #1f1f1f;
+    box-shadow: 0px 11px 15px -7px rgb(0 0 0 / 20%), 0px 24px 38px 3px rgb(0 0 0 / 14%), 0px 9px 46px 8px rgb(0 0 0 / 12%);
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.promptable_base_focus{
+    max-height: calc(722px - 6rem);
+    display: flex;
+    flex-direction: column;
+}
+
+.promptable_base_close {
+    top: 1rem;
+    position: absolute;
+    right: 1rem;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.close_button{
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 0;
+    margin: 0;
+    padding: 0.75rem;
+    position: relative;
+    border: none;
+    background: transparent;
+}
+
+.promptable_base_autofocus {
+    position: static;
+    display: flex;
+    overflow: hidden;
+    max-height: inherit;
+}
+
+.promptable_base_content {
+    flex-grow: 1;
+    padding: 0.5rem 0;
+}
+
+.rating_display {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: -3rem;
+    left: 0;
+    width: 100%;
+}
+
+.rating_prompt_container {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+}
+
+.prompt_rating_container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.starbar {
+    cursor: pointer;
+   
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0;
+    height: 3rem;
+    width: 380px;
+    height: 36px;
+}
+.starbar_li{
+    margin: 0;
+    width: 36px;
+    height: 36px;
+}
+.starbar_rating {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    transform: translateZ(0);
+}
+.rating_stars {
+    
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+  }
+.rate_button {
+    width: 100%;
+    margin: 1rem;
+    background-color: rgba(255,255,255,0.5);
+    justify-content: center;
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    height: 36px;
+    border: none;
+    outline: none;
+}
+.remove_button {
+	display: none;
+	margin-left: 20px;
+	cursor: pointer;
+	background: transparent;
+	color: #5285FF;
+
+}
+
+.images_actor{
+	border-radius: 50%;
+}

@@ -1,0 +1,268 @@
+/*리스트 공통*/
+.wrapper {
+  display: flex;
+  /* justify-content: space-between; */
+  margin: 0 auto;
+  width: 1008px;
+}
+
+.pagecontent {
+  background-color: #cacac6;
+  height: 1200px;
+  width: 1000px;
+
+  margin: 0 auto;
+}
+.content_2_wide {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main {
+  width: 613px;
+  height: 1160px;
+  padding: 20px 20px;
+  background-color: #f8f8f8;
+}
+.title_Box {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #136CB2;
+  
+}
+/*=리스트 공통-sidebar==================*/
+.sidebar {
+  width: 300px;
+  height: 1200px;
+  background-color: #f8f8f8;
+  padding: 0 20px;
+}
+
+.sidebar_top {
+  margin-top: 20px;
+}
+
+.sidebar_widget {
+  padding: 20px 0;
+  border-bottom: 0.5px solid gray;
+}
+.sidebar_title {
+  padding: 10px;
+  font-size: 20px;
+}
+.sidebar_title .title_yhs {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.sidebar_seen {
+  display: flex;
+}
+/*========================*/
+hr {
+  margin: 10px 0;
+}
+
+.chart {
+  border-collapse: collapse;
+  position: relative;
+
+}
+.alert {
+  margin: 20px 0 20px;
+  padding: 12px 12px 12px 64px;
+  border-radius: 6px;
+  background: #f3eeaf
+    url(https://m.media-amazon.com/images/S/sash/wIHh7bD9IjRZLFx.png) 12px 12px
+    no-repeat;
+}
+
+.alert_message {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 13px;
+  line-height: 140%;
+  margin: 0.2em 0 0;
+  padding: 0;
+}
+
+.chart_header {
+  font-family: Verdana, sans-serif;
+  margin: 10px 0px 0px;
+
+  font-size: 12px;
+}
+
+.chart tr {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  border: 1px solid rgb(214, 214, 214);
+
+  background-color: #f6f6f5;
+  height: 30px;
+  text-align: center;
+}
+.chart_header th {
+  height: 30px;
+  vertical-align: bottom;
+}
+.chart_main tr {
+  height: 67px;
+  align-items: center;
+}
+.chart_poster {
+  width: 45px;
+  padding-right: 10px;
+  border-left: none;
+}
+.chart_title {
+  text-align: left !important;
+}
+.chart_title {
+  width: 300px;
+  padding-right: 0px;
+  text-align: left;
+}
+.chart_rating {
+  width: 75px;
+  padding-right: 0px;
+  position: relative;
+}
+.chart_rating_title {
+  font-size: 10px;
+  text-align: center;
+}
+.chart_myrating_title {
+  font-size: 10px;
+  text-align: center;
+}
+/*=======seen-widget===========================================================*/
+.seen_widget {
+  display: flex;
+  white-space: nowrap;
+  width: 60px;
+  height: 75px;
+  vertical-align: middle;
+  position: absolute;
+  top: 0px;
+  flex-direction: column;
+  justify-content: center;
+}
+.imdb_rating {
+  margin: 0;
+}
+.my_rating {
+  width: 60px;
+  height: 30px;
+  
+  position: absolute;
+  left: -250px;
+}
+.popover {
+  position: absolute;
+
+  width: 220px;
+  left: 0px;
+  height: 4px;
+
+  top: 0px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+.popover_delete {
+  position: absolute;
+  background: url("https://m.media-amazon.com/images/S/sash/Lghmahow7r9CQqO.png") -120px
+    0;
+  margin: -1 5px;
+  top: 4px;
+  height: 22px;
+  left: 10px;
+  cursor: pointer;
+  width: 20px;
+}
+
+.popover_rating {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 35px;
+  list-style-type: none;
+  display: flex;
+}
+.rating_stars {
+  display: inline-block;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+}
+.seen_star {
+  position: absolute;
+  cursor: pointer;
+  top: 6px;
+  left: 258px;
+}
+.my_rating {
+  position: relative;
+}
+.seen {
+  position: absolute;
+  left: 277px;
+  top: 3px;
+  
+}
+/*===========================================*/
+
+.chart_date {
+  width: 75px;
+  padding-right: 0px;
+  font-size: 14px;
+}
+
+.chart_date_title{
+  font-size: 12px;	
+}
+
+.chart_myrating {
+  width: 55px;
+  padding-right: 0px;
+}
+.chart_like {
+  width: 60px;
+  position: relative;
+}
+.imdb_like {
+  height: 24px;
+}
+.people_like {
+  height: 24px;
+}
+.like_widget {
+  display: flex;
+  white-space: nowrap;
+  width: 60px;
+  height: 75px;
+  vertical-align: middle;
+  position: absolute;
+  top: 0px;
+  flex-direction: column;
+  justify-content: center;
+}
+.like_heart {
+  cursor: pointer;
+}
+.text_smaller {
+  font-size: 10px;
+}
+
+/*========================*/

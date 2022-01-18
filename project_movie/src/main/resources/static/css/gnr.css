@@ -1,0 +1,168 @@
+.wrap{
+    width: 1008px;
+    background-color: #fff;
+}
+.main{
+    padding: 20px 0 0 20px;
+    box-sizing: border-box;
+}
+.clear{
+    height: 16px;
+}
+.nav{
+    height: 29.88px;
+    vertical-align: bottom;
+}
+.main_component{
+    width: 646px;
+    margin: 0 0 7px;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+#sub_list{
+    margin-bottom: 20px;
+}
+
+.main_component h1{
+    font-size: 21px;
+    margin-bottom: 2px;
+}
+.main_component span{
+    font-size: 13px;
+}
+.main_component a{
+    font-size: 13px;
+    
+}
+.main_component label{
+    font-size: 13px;
+    color: #ccc;
+}
+.nav a:hover{
+	border-bottom:1px solid #136cb2;
+}
+#sort a:hover{
+	
+}
+
+
+.item_list{
+    width: 620px;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    display: flex;
+    background-color: #eee;
+    
+}
+
+#movie_poster{
+    width: 67px;
+    height: 98px;
+    margin: 0;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+#movie_poster img{
+    width: 67;
+    height: 98px;
+}
+
+.item_list_content{
+    margin: 0;
+    padding-left: 10px;
+}
+
+
+.item_list_content h3 span{
+    font-size: 15px;
+    font-weight: 500;
+}
+.item_list_content h3 span:last-child{
+    color: #00000099;
+}
+.item_list_content h3 a{
+    color: #136cb2;
+    font-size: 15px;
+    font-weight: 900;
+}
+.item_list_content h3 a:hover{
+    border-bottom: 1px solid #136cb2;
+}
+#movie_detail{
+    font-size: 11px;
+}
+
+#movie_detail span{
+    padding:0 6px;
+    box-sizing: border-box;
+    color: #666666;
+}
+#movie_detail span:first-child{
+    padding: 0 6px 0 0;
+}
+#rating_bar{
+    display: inline-block;
+}
+
+.rating_star{
+    display: inline-block;
+    font-size: 13px;
+}
+.rating_star a{
+    
+}
+.rating_star:first-child i{
+    color: orange;
+}
+.rating_star:last-child i{
+    color: #ccc;
+}
+#credits{
+    font-size: 11px;
+}
+#credits a{
+    color: #136cb2;
+}
+#credits a:hover{
+    border-bottom: 1px solid #136cb2;
+}
+
+#plot{
+    display: inline-block;
+    margin: 6.5px 0 9.7px;
+    padding-right: 15.6px;
+    font-size: 13px;
+}
+
+#sort_num{
+    margin: 5.5px 0 8.25px;
+}
+
+
+
+
+.recently_view{
+    position: relative;
+    box-sizing: border-box;
+    background-color: #ededec;
+    width: 1008px;
+    border-top: 1px solid #ccc;
+    min-height: 200px;
+    padding:16px 20px;
+}
+.recently_view h3{
+    color: #666666;
+}
+.recently_view .rhs{
+    font-size: 11px;
+    position: absolute;
+    right: 20px;
+}
+#clear_rvi{
+    color: #136cb2;
+}
+#clear_rvi:hover{
+    border-bottom:1px solid#136cb2;
+}
