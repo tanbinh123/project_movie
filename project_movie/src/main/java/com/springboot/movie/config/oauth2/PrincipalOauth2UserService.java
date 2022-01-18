@@ -48,6 +48,7 @@ public class PrincipalOauth2UserService extends DefaultOAuth2UserService {
 		String username = provider + "_" + providerId;
 		
 		User userEntity = userRepository.getUser(username); // 도메인의 유저
+		System.out.println(userEntity);
 		
 		if(userEntity == null) {
 			// 처음 사이트 로그인
@@ -62,6 +63,7 @@ public class PrincipalOauth2UserService extends DefaultOAuth2UserService {
 											.build();
 			
 			userEntity = oAuth2UserDto.toEntity();
+			System.out.println(userEntity);
 			userRepository.signup(userEntity);
 			}
 			// 회원가입이 이미 되어있는 provider계정

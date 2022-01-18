@@ -18,7 +18,6 @@ public class User {
 	private String password;
 	private String email;
 	private String name;
-	private String nickname;
 	private String telephone;
 	private String role;
 	private String provider;

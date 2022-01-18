@@ -1,6 +1,5 @@
 package com.springboot.movie.web.controller;
 
-import java.util.HashMap;
 import java.util.Map;
 import java.util.WeakHashMap;
 

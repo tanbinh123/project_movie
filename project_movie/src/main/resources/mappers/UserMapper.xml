@@ -22,7 +22,6 @@
 			#{password},
 			#{email},
 			#{name},
-			#{nickname},
 			#{telephone},
 			#{role},
 			#{provider},
